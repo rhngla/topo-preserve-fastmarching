@@ -8,7 +8,7 @@
 % debug_plots: set to true only if working with 2d images
 % Authors: Rohan Gala, Uygar Sumbul, Armen Stepanyants
 
-function [nonsimple,KT,D,T]=FastMarchingTube(IM,SVr,Max_Known_Dist,unisotropy,debug_plots)
+function [nonsimple,KT,D,T]=FastMarchingTopo(IM,SVr,Max_Known_Dist,unisotropy,debug_plots)
 output=true;
 pad=2;
 Max_Known_Time=inf;
